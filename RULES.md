@@ -1,4 +1,4 @@
-# 👾 UNO MOSTRO 2.0
+# 👾 UNO MOSTRO 2.1
 
 > ⚔️ **The card game where monsters battle!**
 > Build your army, power up your monsters, and be the last one standing!
@@ -24,7 +24,7 @@
 
 - Take control of an opponent's monster for **1 turn**.
 - Play it **on your turn or on your opponent's turn**.
-- You can switch a monster's position (from attack to defense, or vice versa).
+- You can **tap or untap** a controlled monster (e.g. untap yours to defend, or tap the opponent's).
 - A card 0 can **counter** another card 0.
 
 ### 🔄 Change Turn Card — Steal!
@@ -36,11 +36,15 @@
 
 - Gives **+2 Strength and +2 Resistance** to a monster.
 - Only on your turn. You can put **as many as you want** on the same monster.
+- The bonus lasts **2 of your turns**, then the card goes to the graveyard.
+- Alternatively, you can use it to **draw 2 extra cards** (then it goes to the graveyard).
 
 ### 💥 Card +4
 
 - Gives **+4 Strength and +4 Resistance** to a monster.
 - Only on your turn. **Maximum 1** card +4 per monster.
+- The bonus lasts **2 of your turns**, then the card goes to the graveyard.
+- It cannot be used to draw cards: it is **only** a bonus.
 
 ### 🎨 Change Color Card — Destroy!
 
@@ -59,10 +63,10 @@
 | Card | What it does | When |
 |------|--------------|------|
 | 👾 Monster | Attacks and defends with strength = number | Always in play |
-| 🧠 0 | Control a monster for 1 turn | Your turn or opponent's |
+| 🧠 0 | Control a monster for 1 turn (tap/untap) | Your turn or opponent's |
 | 🔄 Change Turn | Steal a monster forever | Your turn only |
-| 💪 +2 | +2 Strength and Resistance | Your turn only |
-| 💥 +4 | +4 Strength and Resistance (max 1) | Your turn only |
+| 💪 +2 | +2 Strength and Resistance (2 turns) or draw 2 cards | Your turn only |
+| 💥 +4 | +4 Strength and Resistance, max 1 (2 turns) | Your turn only |
 | 🎨 Change Color | Destroy a monster or a power-up | Your turn only |
 | 🚫 Ban | Stop a monster from attacking | Your turn only |
 
@@ -78,21 +82,32 @@
 
 ## 🔁 Your turn
 
-1. **Draw 2 cards** from the deck (except the very first turn).
-2. **Play power-ups**: +2, +4, Change Color.
-3. **Summon** as many monsters as you want.
-4. **Attack** with as many monsters as you want.
-5. At the end of your turn, if you have **more than 7 cards** in hand, discard the excess to the graveyard.
+1. **Untap** all your monsters: wounded monsters **recover full Resistance**.
+2. **Draw 2 cards** from the deck (except the very first turn).
+3. **Play power-ups**: +2, +4, Change Color.
+4. **Summon** as many monsters as you want.
+5. **Attack** with as many monsters as you want.
+6. At the end of your turn, if you have **more than 7 cards** in hand, discard the excess to the graveyard.
 
 > 💡 **Remember:** power-ups first, **then** attack!
 
 ---
 
+## 🔄 Tap and untap
+
+- When a monster **attacks**, it becomes **tapped**: turn it sideways.
+- A **tapped** monster **cannot defend**.
+- At the start of your turn you **untap** all your monsters: the wounded ones **recover full Resistance**.
+- Defending **does not tap** the monster.
+
+---
+
 ## ⚔️ Attack and defense
 
-1. **Declare the attack**: choose which monsters attack and against whom.
+1. **Declare the attack**: choose which monsters attack and against whom. The attacking monsters become **tapped**.
 2. **Declare the defense**: the opponent chooses which monsters defend.
    - A defending monster can block **only one** attacker.
+   - A **tapped** monster cannot defend.
    - Multiple monsters can block **the same** attacker.
    - *In games with 3 or more players, allies can help defend!*
 3. Once declared, you **cannot add** monsters to the attack or defense *(except with a card 0)*.
@@ -104,16 +119,11 @@
 
 ---
 
-## 💚 Recovery
-
-- A monster that **survives** combat returns to **full Resistance** on the next turn.
-
----
-
 ## ♻️ Graveyard and extra cards
 
 - **0** and **Change Turn** cards go to the **graveyard** once used.
-- **+2** and **+4** cards can be used to **draw 2 extra cards** (only on your turn), then go to the graveyard.
+- The **+2** card can be used **instead** to **draw 2 extra cards** (only on your turn), then it goes to the graveyard.
+- The **+4** card cannot draw cards: it is **only** a bonus for a monster.
 
 ---
 
@@ -130,6 +140,9 @@
 - ✅ Monsters attack and defend against **any color**.
 - ✅ Power-ups first, **then** attack.
 - ✅ You can attack and defend with **as many** monsters as you want.
+- ✅ Attacking **taps** the monster: tapped monsters **cannot defend**.
+- ✅ Defending **does not tap**: you can defend every turn.
+- ✅ **+2/+4** bonuses last **2 of your turns**.
 - ✅ A monster that survives **fully heals**.
 - ✅ A player at 0 LP is **out of the game**!
 
@@ -144,4 +157,4 @@
 
 ---
 
-*Version 2.0 — Have fun, Monster Masters! 👾*
+*Version 2.1 — Have fun, Monster Masters! 👾*

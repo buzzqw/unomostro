@@ -1,4 +1,4 @@
-# 👾 UNO MOSTRO 2.0
+# 👾 UNO MOSTRO 2.1
 
 > ⚔️ **Il gioco di carte dove i mostri combattono!**
 > Costruisci il tuo esercito, potenzia i tuoi mostri e resta l'ultimo in piedi!
@@ -24,7 +24,7 @@
 
 - Prendi il controllo di un mostro avversario per **1 turno**.
 - La puoi giocare **nel tuo turno o in quello dell'avversario**.
-- Puoi cambiare la posizione di un mostro (da attacco a difesa o viceversa).
+- Puoi **tappare o stappare** un mostro controllato (es. stappi il tuo per farlo difendere, o tappi quello dell'avversario).
 - Una carta 0 può **annullare** un'altra carta 0.
 
 ### 🔄 Carta Cambia Turno — Ruba!
@@ -36,11 +36,15 @@
 
 - Dà **+2 Forza e +2 Resistenza** a un mostro.
 - Solo nel tuo turno. Puoi metterne **quante vuoi** sullo stesso mostro.
+- Il bonus dura **2 tuoi turni**, poi la carta va nel cimitero.
+- In alternativa, puoi usarla per **pescare 2 carte extra** (poi va nel cimitero).
 
 ### 💥 Carta +4
 
 - Dà **+4 Forza e +4 Resistenza** a un mostro.
 - Solo nel tuo turno. **Massimo 1** carta +4 per mostro.
+- Il bonus dura **2 tuoi turni**, poi la carta va nel cimitero.
+- Non può essere usata per pescare carte: è **solo** un bonus.
 
 ### 🎨 Carta Cambia Colore — Distruggi!
 
@@ -59,10 +63,10 @@
 | Carta | Cosa fa | Quando |
 |-------|---------|--------|
 | 👾 Mostro | Attacca e difende con forza = numero | Sempre in campo |
-| 🧠 0 | Controlli un mostro per 1 turno | Tuo turno o avversario |
+| 🧠 0 | Controlli un mostro per 1 turno (tappa/stappa) | Tuo turno o avversario |
 | 🔄 Cambia Turno | Rubi un mostro per sempre | Solo tuo turno |
-| 💪 +2 | +2 Forza e Resistenza | Solo tuo turno |
-| 💥 +4 | +4 Forza e Resistenza (max 1) | Solo tuo turno |
+| 💪 +2 | +2 Forza e Resistenza (2 turni) o pesca 2 carte | Solo tuo turno |
+| 💥 +4 | +4 Forza e Resistenza, max 1 (2 turni) | Solo tuo turno |
 | 🎨 Cambia Colore | Distruggi un mostro o un potenziamento | Solo tuo turno |
 | 🚫 Divieto | Blocca l'attacco | Solo tuo turno |
 
@@ -78,21 +82,32 @@
 
 ## 🔁 Il tuo turno
 
-1. **Pesca 2 carte** dal mazzo (tranne il primissimo turno).
-2. **Gioca i potenziamenti**: +2, +4, Cambia Colore.
-3. **Scendi in campo** tutti i mostri che vuoi.
-4. **Attacca** con tutti i mostri che vuoi.
-5. A fine turno, se hai **più di 7 carte** in mano, scarta quelle in eccesso nel cimitero.
+1. **Stappa** tutti i tuoi mostri: i mostri feriti **recuperano tutta la Resistenza**.
+2. **Pesca 2 carte** dal mazzo (tranne il primissimo turno).
+3. **Gioca i potenziamenti**: +2, +4, Cambia Colore.
+4. **Scendi in campo** tutti i mostri che vuoi.
+5. **Attacca** con tutti i mostri che vuoi.
+6. A fine turno, se hai **più di 7 carte** in mano, scarta quelle in eccesso nel cimitero.
 
 > 💡 **Ricorda:** prima i potenziamenti, **poi** l'attacco!
 
 ---
 
+## 🔄 Tap e Stappo
+
+- Quando un mostro **attacca**, si **tappa**: giralo di lato.
+- Un mostro **tappato non può difendere**.
+- All'inizio del tuo turno **stappi** tutti i tuoi mostri: i feriti **recuperano tutta la Resistenza**.
+- Difendere **non tappa** il mostro.
+
+---
+
 ## ⚔️ Attacco e difesa
 
-1. **Dichiara l'attacco**: scegli quali mostri attaccano e contro chi.
+1. **Dichiara l'attacco**: scegli quali mostri attaccano e contro chi. I mostri che attaccano si **tappano**.
 2. **Dichiara la difesa**: l'avversario sceglie quali mostri difendono.
    - Un mostro in difesa può fermare **un solo** attaccante.
+   - Un mostro **tappato** non può difendere.
    - Più mostri possono fermare **lo stesso** attaccante.
    - *In 3 o più giocatori, gli alleati possono aiutare a difendere!*
 3. Una volta dichiarate, **non si possono aggiungere** mostri all'attacco o alla difesa *(tranne con la carta 0)*.
@@ -104,16 +119,11 @@
 
 ---
 
-## 💚 Recupero
-
-- Un mostro che **sopravvive** al combattimento torna con la **Resistenza piena** al turno successivo.
-
----
-
 ## ♻️ Cimitero e carte extra
 
 - Le carte **0** e **Cambia Turno**, una volta usate, vanno nel **cimitero**.
-- Le carte **+2** e **+4** possono essere usate per **pescare 2 carte extra** (solo nel tuo turno), poi vanno nel cimitero.
+- La carta **+2** può essere usata **invece** per **pescare 2 carte extra** (solo nel tuo turno), poi va nel cimitero.
+- La carta **+4** non può pescare carte: è **solo** un bonus per un mostro.
 
 ---
 
@@ -130,6 +140,9 @@
 - ✅ I mostri attaccano e difendono contro **qualsiasi colore**.
 - ✅ Prima i potenziamenti, **poi** l'attacco.
 - ✅ Puoi attaccare e difendere con **tutti** i mostri che vuoi.
+- ✅ Attaccare **tappa** il mostro: da tappato **non difende**.
+- ✅ Difendere **non tappa**: puoi difendere ogni turno.
+- ✅ I bonus **+2/+4 durano 2 tuoi turni**.
 - ✅ Un mostro che sopravvive **si cura** del tutto.
 - ✅ Chi resta senza PV è **fuori dai giochi**!
 
@@ -144,4 +157,4 @@
 
 ---
 
-*Versione 2.0 — Buon divertimento, Mostro-Mastri! 👾*
+*Versione 2.1 — Buon divertimento, Mostro-Mastri! 👾*
